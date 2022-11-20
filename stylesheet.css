@@ -1,0 +1,198 @@
+header{
+    
+   display: flex;
+   padding-left: 5px;
+   padding-right: 5px;
+   justify-content: space-between;
+   align-items: center;
+   box-shadow: 5px 5px 5px grey;
+   min-width: 100%;
+   position: fixed;
+
+}
+
+
+
+#shop,#artists,#shows,#about
+{padding: 10px;
+ font-family:  Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+font-size: 16px;
+transition: 0.8s;
+color: black;
+text-decoration: none;
+position: relative;
+}
+#l1,#l2,#l3,#l4,#l5{list-style: none;}
+#img-1
+{width: 80px;
+ 
+}
+.shop-list
+{   list-style: none;
+    position: absolute;
+    background-color: white;
+    padding: 0;
+    height: 100px;
+    top: 38px;
+    left: 2px;
+    box-shadow: 2px 2px 2px  rgb(91, 57, 13);
+    border-radius: 3px;
+    display: none;
+
+}
+#sl1,#sl11,#sl12
+{text-decoration: none;
+list-style: none;
+color: black;
+font-size: 20px;
+line-height:30px;
+display: block;
+}
+
+#l1:hover > .shop-list
+{  transition: 0.5;
+    display: block;}
+
+
+.shop-list:hover{background-color: rgb(238, 226, 204);}
+#sl1:hover
+{background-color: black;
+color: white;}
+#sl11:hover
+{background-color: black;
+color: white;}
+#sl12:hover
+{background-color: black;
+color: white;}
+
+.artists-list
+{list-style: none;
+    position: absolute;
+    background-color: white;
+    padding: 0;
+    height: 100px;
+    top: 38px;
+    box-shadow: 2px 2px 2px  rgb(91, 57, 13);
+    border-radius: 3px;
+    display: none;
+}
+#al1,#al11,#al12
+{text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 20px;
+    line-height:30px;
+    display: block;}
+.artists-list:hover{background-color: rgb(238, 226, 204);}
+#al1:hover
+{background-color: black;
+color: white;}
+#al11:hover
+{background-color: black;
+color: white;}
+#al12:hover
+{background-color: black;
+color: white;}
+#l2:hover > .artists-list
+{ transition: 0.5s;
+    display: block;}
+
+.shows-list
+{list-style: none;
+    position: absolute;
+    background-color: white;
+    padding: 0;
+    height: 70px;
+    top: 38px;
+    box-shadow: 2px 2px 2px  rgb(91, 57, 13);
+    border-radius: 3px;
+    width: 70px;
+    display: none
+}
+
+#sl2,#sl
+{text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 20px;
+    line-height:30px;
+    display: block;}
+
+
+    .shows-list:hover{background-color: rgb(238, 226, 204);}
+    #sl2:hover
+    {background-color: black;
+    color: white;}
+    #sl:hover
+    {background-color: black;
+    color: white;}
+   #l4:hover > .shows-list
+   {transition: 0.5s;
+    display: block;}
+
+/* 
+.about-list
+{list-style: none;
+    position: absolute;
+    background-color: white;
+    padding: 0;
+    height: 50px;
+    top: 38px;
+    box-shadow: 2px px 2px  rgb(91, 57, 13);
+    border-radius: 3px;
+    width: 80px;
+    right: 0px;
+    display: none;
+    
+
+}
+#al13
+{text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height:30px;
+    display: block;;}
+
+
+    .about-list:hover{background-color: rgb(238, 226, 204);}
+    #al13:hover
+    {background-color: black;
+    color: white;}
+
+
+    
+
+    #l5:hover > .about-list
+    { transition: 0.5s;
+    display: block;}
+     */
+
+#img-1
+{transition: 0.8s;}
+
+#shop:hover
+{background-color: black;
+color: white;
+cursor: pointer;}  
+#artists:hover
+{background-color: black;
+color: white;cursor: pointer;} 
+#img-1:hover
+{background-color: beige;
+color: white;cursor: pointer;} 
+#shows:hover
+{background-color: black;
+color: white;cursor: pointer;} 
+#about:hover
+{background-color: black;
+color: white;cursor: pointer;} 
+
+
+
+
+#jb-img
+{   margin-top:70px ;
+    width: 100%;}
+

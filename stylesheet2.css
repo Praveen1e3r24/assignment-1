@@ -91,8 +91,8 @@ header{
      display: block;}
  .artists-list:hover{background-color: rgb(238, 226, 204);}
  #al1:hover
- {background-color: rgb(255, 255, 255);
- color: rgb(0, 0, 0);}
+ {background-color: rgb(0, 0, 0);
+ color: rgb(255, 255, 255);}
  #al11:hover
  {background-color: black;
  color: white;}
@@ -205,11 +205,12 @@ position: relative;
  
  #img-2
  {
- 
+ background-color: black;
 }
 
  #travis-scott-img1
  { width: 100%;
+    
 
     
 }
@@ -241,7 +242,6 @@ position: relative;
 right: 10px;
 
 
-    
 }
 
 .logo
@@ -252,12 +252,95 @@ right: 10px;
 }
 
 #yt-logo
-{width: 70px;} 
+{width: 80px;} 
 #spotify-logo
 {width: 50px;
 border-radius: 5px;} 
+
+#insta-logo:hover
+{width: 60px;}
+
+#yt-logo:hover
+{width: 90px;}
  
+
+#spotify-logo:hover
+{width: 60px;}
  
+
+
+
+
+
+
+
+#albums-title
+{  display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+color: wheat;
+font-size: 20px;}
+
+
+
+
+
+
+#albums
+{display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+margin-top: 10px;
+}
+
+.album-img
+{}
+
+#astroworld-img,#birds-img,#highest-img,#huncho-img
+{height: 300px;}
+
+#astroworld-img:hover
+{   transition: 0.5s;
+    width: 102%;
+    box-shadow: 5px 5px 5px rgb(90, 136, 222);}
+#birds-img:hover
+{   transition: 0.5s;
+    width: 102%;
+    box-shadow: 5px 5px 5px rgb(212, 18, 18);}
+
+#highest-img:hover
+{
+    transition: 0.5s;
+    width: 102%;
+    box-shadow: 5px 5px 5px wheat;}
+
+
+    #huncho-img:hover
+{
+    transition: 0.5s;
+    width: 102%;
+    box-shadow: 5px 5px 5px rgb(236, 236, 236);}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  /* footer */
  
  .footer1

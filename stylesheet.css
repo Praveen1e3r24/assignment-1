@@ -11,6 +11,7 @@ header{
    box-shadow: 5px 5px 5px grey;
    min-width: 100%;
    position: fixed;
+   background-color: white;
 
 }
 
@@ -194,7 +195,9 @@ color: white;cursor: pointer;}
 
 
 #jbimg-div
-{padding: 0;}
+{
+    background-color: rgb(97, 47, 47);
+}
 #jb-img
 {   margin-top:70px ;
     width: 100%;
@@ -230,7 +233,55 @@ font-size: 16px;
 
 
 
+#albums-title
+{  display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+color: wheat;
+font-size: 20px;}
 
+
+
+
+
+
+#albums
+{display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+margin-top: 10px;
+}
+
+.album-img
+{}
+
+#astroworld-img,#lifeofadon-img,#hoh-img,#mudboy-img
+{height: 300px;}
+
+#astroworld-img:hover
+{   transition: 0.5s;
+    width: 102%;
+    box-shadow: 5px 5px 5px rgb(90, 136, 222);}
+#lifeofadon-img:hover
+{   transition: 0.5s;
+    width: 102%;
+    box-shadow: 5px 5px 5px rgb(212, 18, 18);}
+
+#hoh-img:hover
+{
+    transition: 0.5s;
+    width: 102%;
+    box-shadow: 5px 5px 5px wheat;}
+
+
+    #mudboy-img:hover
+{
+    transition: 0.5s;
+    width: 102%;
+    box-shadow: 5px 5px 5px rgb(236, 236, 236);}
+
+    
 
 
 

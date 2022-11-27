@@ -4,7 +4,7 @@
 header{
     
     display: flex;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     justify-content: space-between;
     align-items: center;
     box-shadow: 5px 5px 5px grey;
@@ -198,127 +198,46 @@ header{
  color: rgb(0, 0, 0);cursor: pointer;} 
  
 
- #don-toliver-info
- {display: block;
-position: relative;
-}
- 
- #img-2
- {
 
-}
-
- #don-toliver-img1
- { height: 900px;
-    width: 100%;
-    object-fit: cover;
-    object-position: left;
-    
-}
-#bold-name
-{position: absolute;
-    top: 10px;
-   left: 10px;
-   color: white;
-   width: 500px;
-   font-size: 100px;
-
-       
-   }
-
-#abt-dt
-{position: absolute;
-    top: 150px;
-   left: 10px;
-   color: white;
-   width: 500px;
-
-       
-   }
-
-
-#don-toliver-socials
-{position: absolute;
- top: 10px;
-right: 10px;
-}
-
-#insta-logo:hover
-{width: 60px;}
-
-#yt-logo:hover
-{width: 90px;}
- 
-
-#spotify-logo:hover
-{width: 60px;}
-.logo
-{ padding-top: 10px;
-    margin: 20px;}
- #insta-logo
- {width: 50px;
-}
-
-#yt-logo
-{width: 70px;} 
-#spotify-logo
-{width: 50px;
-border-radius: 5px;} 
- 
-#albums-title
-{  display: flex;
-justify-content: center;
-align-items: center;
-background-color: black;
-color: wheat;
-font-size: 20px;}
-
-#albums
+#selectors
 {display: flex;
-justify-content: space-evenly;
-flex-wrap: wrap;
-margin-top: 10px;
+justify-content: space-between;
+padding-left: 30%;}
+
+
+#f-search-bar
+{display: flex;
 }
 
-.album-img
-{}
+#search-bar
+{width: 400px;
+height: 50px;
+border: none;
+}
+#search-logo
+{width: 70px;
+height: 50px;
+background-color: white;
+border-left: 1px solid  ;}
 
-#jb-cover,#Life_of_a_Don,#donny-womack,#heaven-or-hell
-{height: 300px;}
+#shopping-cart-img
+ {width: 40px;
+height: 50px;
 
-#jb-cover:hover
-{   transition: 0.5s;
-    width: 102%;
-    box-shadow: 5px 5px 5px rgb(30, 41, 61);}
-#Life_of_a_Don:hover
-{   transition: 0.5s;
-    width: 102%;
-    box-shadow: 5px 5px 5px rgb(212, 18, 18);}
-
-#donny-womack:hover
-{
-    transition: 0.5s;
-    width: 102%;
-    box-shadow: 5px 5px 5px rgb(101, 13, 152);}
-
-
-    #heaven-or-hell:hover
-{
-    transition: 0.5s;
-    width: 102%;
-    box-shadow: 5px 5px 5px wheat;}
+}
 
 
 
 
-
-
-
-
-
-
-
-
+#cj-pp
+{width: 60px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 30px;
+    background-color: wheat;
+    }
+    
 
 
  

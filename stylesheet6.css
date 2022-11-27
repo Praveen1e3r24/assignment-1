@@ -4,7 +4,7 @@
 header{
     
     display: flex;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     justify-content: space-between;
     align-items: center;
     box-shadow: 5px 5px 5px grey;
@@ -198,137 +198,76 @@ header{
  color: rgb(0, 0, 0);cursor: pointer;} 
  
 
- #don-toliver-info
- {display: block;
-position: relative;
-}
- 
- #img-2
- {
 
-}
 
- #don-toliver-img1
- { height: 900px;
-    width: 100%;
-    object-fit: cover;
-    object-position: left;
-    
-}
-#bold-name
+#concert-img-box
+{width: 100%;
+background-color: black;}
+#ts-concert-img
+{width: 100%;
+position: relative;}
+#concert-heading
 {position: absolute;
-    top: 10px;
-   left: 10px;
-   color: white;
-   width: 500px;
-   font-size: 100px;
+top: 50%;
+left: 25%;
 
-       
-   }
-
-#abt-dt
-{position: absolute;
-    top: 150px;
-   left: 10px;
-   color: white;
-   width: 500px;
-
-       
-   }
-
-
-#don-toliver-socials
-{position: absolute;
- top: 10px;
-right: 10px;
+font-family:  Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+font-size: 70px;
+box-shadow: 2px 2px 2px black;
 }
 
-#insta-logo:hover
-{width: 60px;}
 
-#yt-logo:hover
-{width: 90px;}
- 
 
-#spotify-logo:hover
-{width: 60px;}
-.logo
-{ padding-top: 10px;
-    margin: 20px;}
- #insta-logo
- {width: 50px;
+
+
+
+.input
+{height: 10%;
+    width: 70%;
+
 }
 
-#yt-logo
-{width: 70px;} 
-#spotify-logo
-{width: 50px;
-border-radius: 5px;} 
- 
-#albums-title
-{  display: flex;
-justify-content: center;
-align-items: center;
-background-color: black;
-color: wheat;
-font-size: 20px;}
-
-#albums
+#input-box
+{flex-grow: 1;}
+#booking-box
 {display: flex;
-justify-content: space-evenly;
-flex-wrap: wrap;
-margin-top: 10px;
+background-color: black;
 }
 
-.album-img
-{}
+#concert
+{width: 50%;
+margin-right: 10%;}
 
-#jb-cover,#Life_of_a_Don,#donny-womack,#heaven-or-hell
-{height: 300px;}
+#concert-seats-img
+{width: 100%;
 
-#jb-cover:hover
-{   transition: 0.5s;
-    width: 102%;
-    box-shadow: 5px 5px 5px rgb(30, 41, 61);}
-#Life_of_a_Don:hover
-{   transition: 0.5s;
-    width: 102%;
-    box-shadow: 5px 5px 5px rgb(212, 18, 18);}
+}
+ #submit-button
+{width: 29%;
+margin: 4%;
+margin-left: 20%;
+background-color: black;
+color: white;
+font-family:  Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+border: 1px outset white;
+transition: 0.15s;
+}
 
-#donny-womack:hover
-{
-    transition: 0.5s;
-    width: 102%;
-    box-shadow: 5px 5px 5px rgb(101, 13, 152);}
+#submit-button:hover
+{box-shadow: 2px 2px 2px whitesmoke ;
+cursor: pointer;}
 
-
-    #heaven-or-hell:hover
-{
-    transition: 0.5s;
-    width: 102%;
-    box-shadow: 5px 5px 5px wheat;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#submit-button:active
+{background-color: white;
+color: black;}
  
  /* footer */
- 
+
  .footer1
  {display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
- height: 50px;
+ height: 0%;
  align-items: center;
  padding: 20px;
  background-color: black;
@@ -347,3 +286,17 @@ margin-top: 10px;
  {background-color: rgb(255, 255, 255);
  color: rgb(0, 0, 0);
  cursor: pointer;}
+
+ /* @media only screen and (max-width: 390px) {
+    #concert-heading
+{position: absolute;
+top: 50%;
+left: 25%;
+
+font-family:  Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+font-size: 70px;
+box-shadow: 2px 2px 2px black;
+}
+
+
+  } */

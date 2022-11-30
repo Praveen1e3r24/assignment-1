@@ -268,8 +268,11 @@ border-radius: 5px;}
 {width: 60px;}
  
 
-
-
+#myVideo
+{width: 100%;
+}
+#sicko-mode-video-section
+{background-color: black;}
 
 
 

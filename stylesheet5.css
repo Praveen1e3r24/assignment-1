@@ -12,6 +12,7 @@ header{
     position: static;
     z-index: 1;
     height: 70px;
+    position: relative;
     
  
  }
@@ -91,8 +92,8 @@ header{
      display: block;}
  .artists-list:hover{background-color: rgb(238, 226, 204);}
  #al1:hover
- {background-color: rgb(255, 255, 255);
- color: rgb(0, 0, 0);}
+ {background-color: rgb(0, 0, 0);
+ color: rgb(255, 255, 255);}
  #al11:hover
  {background-color: black;
  color: white;}
@@ -199,13 +200,15 @@ header{
  
 
  #selectors-abs
- {width: 100%;}
+ {width: 100%;
+position: relative;}
 
 #selectors
 {display: flex;
 justify-content: space-between;
 background-color: black;
 width: 100%;
+
 }
 #ts-ad
 {  
@@ -215,12 +218,15 @@ width: 100%;
 
 #f-search-bar
 {display: flex;
-}
+padding-left: 30%;
+overflow: hidden;}
 
 #search-bar
 {width: 400px;
 height: 50px;
 border: none;
+border-radius: 5px;
+font-family: Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;
 }
 #search-logo
 {width: 30px;
@@ -251,7 +257,8 @@ height: 50px;
 #product-menu
 {display: flex;
 flex-wrap: wrap;
-margin-top: 30px;}
+margin-top: 30px;
+padding-bottom:20px ;}
 
 
 
@@ -278,6 +285,35 @@ margin-top: 30px;}
 .pimg8
 {width: 390px;}
 
+
+
+.pimg1:hover
+{cursor: pointern;
+scale: 110%;}
+.pimg2:hover
+{cursor: pointern;
+scale: 110%;}
+.pimg3:hover
+{cursor: pointern;
+scale: 110%;}
+.pimg4:hover
+{cursor: pointern;
+scale: 110%;}
+.pimg5:hover
+{cursor: pointern;
+scale: 110%;}
+
+.pimg6:hover
+{cursor: pointern;
+scale: 110%;}
+.pimg7:hover
+{cursor: pointern;
+scale: 110%;}
+.pimg8:hover
+{cursor: pointern;
+scale: 110%;}
+
+
 #p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8
 {   display: flex;
     flex: 1 45%;
@@ -287,6 +323,9 @@ margin-top: 30px;}
 
  /* footer */
  
+
+
+
  .footer1
  {display: flex;
   justify-content: space-between;

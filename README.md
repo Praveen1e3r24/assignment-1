@@ -26,6 +26,8 @@ Audience : People who like rap music/hip-hop. Companies who are looking for bran
  5.)Shop page for user to buy cactus jack products and ,merchandise /
  6.)Concert page for users to buy concert tickets/
  7.)Navigation Bar //
+ 8.) Clock
+ 
 
 
 #Wireframe
@@ -99,3 +101,41 @@ https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHeav
 
 
 
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fshopee.sg%2FTravis-Scott-Cactus-Jack-T-Shirt-casual-mens-cotton-Comfortable-wild-t-shirt-black-i.152030152.2325478655&psig=AOvVaw1uLg2Z3UceCFg57A5dJity&ust=1669950386453000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDZ-Y641_sCFQAAAAAdAAAAABAE
+
+
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fbigcapbrand.com%2Fproducts%2F100-cotton-cactus-jack-baseball-caps-travis-scott-unisex-astroworld-dad-hat-cap-astroworld-embroidery-man-women-summer-hat&psig=AOvVaw1uLg2Z3UceCFg57A5dJity&ust=1669950386453000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDZ-Y641_sCFQAAAAAdAAAAABAJ
+
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Ftravisscottofficial.com%2Ftravis-scott-cactus-jack-night-sweatshirt%2F&psig=AOvVaw1uLg2Z3UceCFg57A5dJity&ust=1669950386453000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDZ-Y641_sCFQAAAAAdAAAAABAO
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fsneakerspot.co.il%2Fproducts%2Fnike-air-force-1-x-travis-scott-cactus-jack&psig=AOvVaw1uLg2Z3UceCFg57A5dJity&ust=1669950386453000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDZ-Y641_sCFQAAAAAdAAAAABAT
+
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hanon-shop.com%2Fblogs%2Fnews%2Flaunches-nike-air-force-1-low-cactus-jack-x-travis-scott&psig=AOvVaw1uLg2Z3UceCFg57A5dJity&ust=1669950386453000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDZ-Y641_sCFQAAAAAdAAAAABAY
+
+
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Foxstreet.com%2Fproduct%2Ftravis-scott-x-dunk-low-premium-qs-sb-cactus-jack&psig=AOvVaw1uLg2Z3UceCFg57A5dJity&ust=1669950386453000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDZ-Y641_sCFQAAAAAdAAAAABAd
+
+
+https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0605%2F9887%2F8430%2Fproducts%2FPhotoRoom_012_20220715_163712.png%3Fv%3D1657919383&imgrefurl=https%3A%2F%2Fkickscircuit.com%2Fproducts%2Ftravis-scott-cactus-jack-for-fragment-sunrise-black&tbnid=zv5DWvT9iC3wdM&vet=12ahUKEwjxsPGNuNf7AhXWjdgFHV23DSEQMygregUIARC_Ag..i&docid=G9-NL8JWG-FORM&w=2400&h=2400&q=cactus%20jack%20products&ved=2ahUKEwjxsPGNuNf7AhXWjdgFHV23DSEQMygregUIARC_Ag
+
+
+https://www.youtube.com/watch?v=RIuk23XHYj0
+
+https://www.youtube.com/watch?v=6ONRf7h3Mdk
+
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fsundayafternoon.us%2Fartists%2Fahmed-klink%2Ftravis-scott&psig=AOvVaw0D-tKZPGeX8aJ3iS1gQ2p9&ust=1669950619129000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJDH9f241_sCFQAAAAAdAAAAABAF
+
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fshotgun.live%2Fartists%2Fdontoliver&psig=AOvVaw33toqXXxPFJTtYQj4Mpmpe&ust=1669950682322000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIDW-Zu51_sCFQAAAAAdAAAAABAE
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSheck_Wes&psig=AOvVaw3e0NjGJ9g89xiaxCKgy4-t&ust=1669950711120000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNCm5Km51_sCFQAAAAAdAAAAABAE
+
+
+
+https://www.youtube.com/watch?v=1Q1AF00SqXE&t=2458s

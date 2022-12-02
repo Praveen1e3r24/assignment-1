@@ -9,7 +9,7 @@ header{
     align-items: center;
     box-shadow: 5px 5px 5px grey;
     min-width: 100%;
-    position: static;
+    position: fixed;
     z-index: 1;
     height: 70px;
     
@@ -201,6 +201,7 @@ header{
  #travis-scott-info
  {display: block;
 position: relative;
+top:70px ;
 }
  
  #img-2
@@ -240,7 +241,6 @@ position: relative;
 {position: absolute;
  top: 10px;
 right: 10px;
-
 
 }
 
@@ -325,23 +325,6 @@ margin-top: 10px;
     width: 102%;
     box-shadow: 5px 5px 5px rgb(236, 236, 236);}
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  /* footer */
@@ -360,12 +343,130 @@ margin-top: 10px;
  {/*   flex: 1 30% */
      min-width: 80px;
      font-family:  Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;
- text-align: center;
- font-size: 18px;
- color: white;
+     text-align: center;
+     font-size: 18px;
+     color: white;
  }
  
  .footeri:hover
  {background-color: rgb(255, 255, 255);
  color: rgb(0, 0, 0);
  cursor: pointer;}
+
+
+ 
+
+@media (max-width:500px) 
+{
+    header{
+        
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       box-shadow: 5px 5px 5px grey;
+       position: relative;
+       background-color: rgb(0, 0, 0);
+       padding: 0;
+       margin: 0;
+    
+    }
+ 
+
+    #shop,#artists,#shows,#about
+    { padding: 0px;
+     font-family:  Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+    font-size: 14px;
+    transition: 0.8s;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: relative;
+    
+    }
+
+
+
+    #bold-name
+    {position: absolute;
+        top: 10px;
+       left: 5px;
+       color: white;
+       width: 200px;
+       font-size: 35px;
+    
+           
+       }
+    
+    #abt-ts
+    {position: absolute;
+        top: 80px;
+       left: 5px;
+       color: white;
+       width: 300px;
+       display: none;
+    
+           
+       }
+
+
+
+
+       #travis-scott-socials
+       {position: absolute;
+        top: 2px;
+       right: 2px;
+       
+       
+       }
+
+
+
+    #travis-scott-info
+    {display: flex;
+    position: relative;
+    width: 100%;
+    top: 0;}
+    
+
+
+    .logo
+    { padding-top: 10px;
+        margin: 2px;}
+     #insta-logo
+     {width: 20px;
+    }
+    
+    #yt-logo
+    {width: 40px;} 
+    #spotify-logo
+    {width: 20px;
+    border-radius: 5px;} 
+
+
+
+
+    .footer1
+    {display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+    height: 70px;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    
+    }
+    .footeri
+    {/*   flex: 1 30% */
+        min-width: 80px;
+        font-family:  Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    }
+    
+
+
+
+
+}
+    
+

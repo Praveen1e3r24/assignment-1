@@ -210,10 +210,10 @@ position: relative;
 }
 
  #sheck-wes-img1
- { height: 900px;
+ {  height: 900px;
     width: 100%;
     object-fit: cover;
-    object-position: left;
+    object-position: center;
     
 }
 #bold-name
@@ -338,3 +338,125 @@ margin-top: 10px;
  {background-color: rgb(255, 255, 255);
  color: rgb(0, 0, 0);
  cursor: pointer;}
+
+
+ @media (max-width:500px) 
+{
+    header{
+        
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       box-shadow: 5px 5px 5px grey;
+       position: relative;
+       background-color: rgb(0, 0, 0);
+       padding: 0;
+       margin: 0;
+    
+    }
+ 
+
+    #shop,#artists,#shows,#about
+    { padding: 0px;
+     font-family:  Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+    font-size: 14px;
+    transition: 0.8s;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: relative;
+    
+    }
+   
+    #sheck-wes-img1
+ {  height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+ 
+
+    #bold-name
+    {position: absolute;
+        top: 10px;
+       left: 5px;
+       color: white;
+       width: 200px;
+       font-size: 35px;
+    
+           
+       }
+    
+    #abt-sw
+    {position: absolute;
+        top: 80px;
+       left: 5px;
+       color: white;
+       width: 300px;
+       display: none;
+    
+           
+       }
+
+
+
+
+       #sheck-wes-socials
+       {position: absolute;
+        top: 2px;
+       right: 2px;
+       
+       
+       }
+
+
+
+    #travis-scott-info
+    {display: flex;
+    position: relative;
+    width: 100%;
+    top: 0;}
+    
+
+
+    .logo
+    { padding-top: 10px;
+        margin: 2px;}
+     #insta-logo
+     {width: 20px;
+    }
+    
+    #yt-logo
+    {width: 40px;} 
+    #spotify-logo
+    {width: 20px;
+    border-radius: 5px;} 
+
+
+
+
+    .footer1
+    {display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+    height: 70px;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    
+    }
+    .footeri
+    {/*   flex: 1 30% */
+        min-width: 80px;
+        font-family:  Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    }
+    
+
+
+
+
+}
+    

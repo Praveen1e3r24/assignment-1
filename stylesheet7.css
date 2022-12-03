@@ -1,0 +1,350 @@
+
+
+
+header{
+    
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 5px grey;
+    min-width: 100%;
+    position: static;
+    z-index: 1;
+    height: 70px;
+    
+ 
+ }
+ 
+ 
+ 
+ #shop,#artists,#shows,#about
+ {padding: 10px;
+  font-family:  Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+ font-size: 16px;
+ transition: 0.8s;
+ color: rgb(255, 255, 255);
+ text-decoration: none;
+ position: relative;
+ }
+ #l1,#l2,#l3,#l4,#l5{list-style: none;}
+ #img-1
+ {height: 70px;
+ }
+ .shop-list
+ {   list-style: none;
+     position: absolute;
+     background-color: white;
+     padding: 0;
+     height: 100px;
+     top: 38px;
+     left: 2px;
+     box-shadow: 2px 2px 2px  rgb(91, 57, 13);
+     border-radius: 3px;
+     display: none;
+     z-index: 1;
+ 
+ }
+ #sl1,#sl11,#sl12
+ {text-decoration: none;
+ list-style: none;
+ color: black;
+ font-size: 20px;
+ line-height:30px;
+ display: block;
+ }
+ 
+ #l1:hover > .shop-list
+ {  transition: 0.5;
+     display: block;}
+ 
+ 
+ .shop-list:hover{background-color: rgb(238, 226, 204);}
+ #sl1:hover
+ {background-color: black;
+ color: white;}
+ #sl11:hover
+ {background-color: black;
+ color: white;}
+ #sl12:hover
+ {background-color: black;
+ color: white;}
+ 
+ .artists-list
+ {list-style: none;
+     position: absolute;
+     background-color: white;
+     padding: 0;
+     height: 100px;
+     top: 38px;
+     box-shadow: 2px 2px 2px  rgb(91, 57, 13);
+     border-radius: 3px;
+     display: none;
+     z-index: 1;
+ }
+ #al1,#al11,#al12
+ {text-decoration: none;
+     list-style: none;
+     color: black;
+     font-size: 20px;
+     line-height:30px;
+     display: block;}
+ .artists-list:hover{background-color: rgb(238, 226, 204);}
+ #al1:hover
+ {background-color: rgb(0, 0, 0);
+ color: rgb(255, 255, 255);}
+ #al11:hover
+ {background-color: black;
+ color: white;}
+ #al12:hover
+ {background-color: black;
+ color: white;}
+ #l2:hover > .artists-list
+ { transition: 0.5s;
+     display: block;}
+ 
+ .shows-list
+ {list-style: none;
+     position: absolute;
+     background-color: white;
+     padding: 0;
+     height: 70px;
+     top: 38px;
+     box-shadow: 2px 2px 2px  rgb(91, 57, 13);
+     border-radius: 3px;
+     width: 70px;
+     display: none;
+     z-index: 1;
+    
+ }
+ 
+ #sl2,#sl
+ {text-decoration: none;
+     list-style: none;
+     color: black;
+     font-size: 20px;
+     line-height:30px;
+     display: block;}
+ 
+ 
+     .shows-list:hover{background-color: rgb(238, 226, 204);}
+     #sl2:hover
+     {background-color: black;
+     color: white;}
+     #sl:hover
+     {background-color: black;
+     color: white;}
+    #l4:hover > .shows-list
+    {transition: 0.5s;
+     display: block;}
+ 
+ /* 
+ .about-list
+ {list-style: none;
+     position: absolute;
+     background-color: white;
+     padding: 0;
+     height: 50px;
+     top: 38px;
+     box-shadow: 2px px 2px  rgb(91, 57, 13);
+     border-radius: 3px;
+     width: 80px;
+     right: 0px;
+     display: none;
+     
+ 
+ }
+ #al13
+ {text-decoration: none;
+     list-style: none;
+     color: black;
+     font-size: 18px;
+     margin-top: 10px;
+     line-height:30px;
+     display: block;;}
+ 
+ 
+     .about-list:hover{background-color: rgb(238, 226, 204);}
+     #al13:hover
+     {background-color: black;
+     color: white;}
+ 
+ 
+     
+ 
+     #l5:hover > .about-list
+     { transition: 0.5s;
+     display: block;}
+      */
+ 
+ #img-1
+ {transition: 0.8s;}
+ 
+ #shop:hover
+ {background-color: rgb(255, 255, 255);
+ color: rgb(0, 0, 0);
+ cursor: pointer;}  
+ #artists:hover
+ {background-color: rgb(255, 255, 255);
+ color: rgb(0, 0, 0);cursor: pointer;} 
+ #img-1:hover
+ {box-shadow: 3px 3px 3px  rgb(132, 111, 111);
+ color: rgb(255, 255, 255);cursor: pointer;} 
+ #shows:hover
+ {background-color: rgb(255, 255, 255);
+ color: rgb(0, 0, 0);cursor: pointer;} 
+ #about:hover
+ {background-color: rgb(255, 255, 255);
+ color: rgb(0, 0, 0);cursor: pointer;} 
+ 
+   
+.text
+{margin: 0;}
+
+
+
+#dt,#ts,#sw
+{ display: flex;
+  align-items: center;
+  background-color: black;
+}
+.s-img
+{width: 350px;
+height: 350px;
+padding-left: 20px;
+padding-right: 20px;
+background-color: black;}
+
+#dt,#sw,#ts
+{justify-content: space-between;}
+
+
+#myVideo
+{width: 700px;
+height: 500px;}
+
+
+
+#slider-container
+{background-color: black;
+position: relative;
+padding: 20px;}
+#slider-box
+{width: 70%;
+height:500px;
+position: static;
+margin: auto;
+margin-top: 20px;
+background-image: url("images/jack-boys-1.webp");
+background-size: 100% 100%;
+box-shadow: 3px 3px 3px rgb(0, 0, 0);
+animation: slider 15s infinite linear;
+z-index: -4;
+}
+
+
+
+
+
+@keyframes slider{
+    0%{background-image: url('images/jb-grp-photo-2.webp');}
+    35%{background-image: url('images/jb-group-photo-3.webp');}
+}
+
+
+
+#albums-title
+{  display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+color: wheat;
+font-size: 20px;}
+
+
+
+
+
+
+#albums
+{display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+padding-top: 10px;
+}
+
+
+
+#astroworld-img,#lifeofadon-img,#hoh-img,#mudboy-img
+{height: 300px;}
+
+#astroworld-img:hover
+{   
+    box-shadow: 5px 5px 5px rgb(225, 176, 13);}
+#lifeofadon-img:hover
+{  
+    box-shadow: 5px 5px 5px rgb(212, 18, 18);}
+
+#hoh-img:hover
+{
+    
+    box-shadow: 5px 5px 5px rgb(207, 21, 170);}
+
+
+
+    
+
+
+
+
+
+ 
+ /* footer */
+ 
+ .footer1
+ {display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ height: 0%;
+ align-items: center;
+ padding: 20px;
+ background-color: black;
+ 
+ }
+ .footeri
+ {/*   flex: 1 30% */
+     min-width: 80px;
+     font-family:  Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+ text-align: center;
+ font-size: 18px;
+ color: white;
+ }
+ 
+ .footeri:hover
+ {background-color: rgb(255, 255, 255);
+ color: rgb(0, 0, 0);
+ cursor: pointer;}
+ 
+ 
+ @media (max-width:500px) 
+ {
+     header{
+         
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 5px 5px 5px grey;
+        min-width: 100%;
+        position: static;
+        background-color: white;
+        padding: 0;
+     
+     }
+     
+     .potraits
+     {width: 80px;
+     height: 80px;
+     transition: 0.4s;}
+     
+ 
+     }

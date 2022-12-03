@@ -8,7 +8,7 @@ header{
     justify-content: space-between;
     align-items: center;
     box-shadow: 5px 5px 5px grey;
-    min-width: 100%;
+    width: 100%;
     position: static;
     z-index: 1;
     height: 70px;
@@ -202,18 +202,21 @@ header{
 
 #concert-img-box
 {width: 100%;
-background-color: black;}
+background-color: black;
+text-align: center;
+
+}
 #ts-concert-img
 {width: 100%;
-position: relative;}
+}
 #concert-heading
 {position: absolute;
-top: 50%;
-left: 25%;
-
+top: 40%;
+margin: 0;
 font-family:  Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;
 font-size: 70px;
 box-shadow: 2px 2px 2px black;
+
 }
 
 
@@ -230,10 +233,11 @@ box-shadow: 2px 2px 2px black;
 
 #clock
 {display:flex ;
-justify-content: space-around;
+justify-content:space-between;
 font-family: Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;
 font-size: 20px;
 color: white;
+padding-right: 2%;
 }
 
 
@@ -247,14 +251,9 @@ color: white;
 #booking-box
 {display: flex;
 background-color: rgb(0, 0, 0);
-padding-bottom:20px ;
+padding-top: 10px;
+padding-bottom:70px ;
 }
-
-
-
-
-
-
 
 
 
@@ -338,3 +337,94 @@ box-shadow: 2px 2px 2px black;
 
 
   } */
+  
+ @media (max-width:500px) 
+ {
+     header{
+         
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: 5px 5px 5px grey;
+        position: relative;
+        background-color: rgb(0, 0, 0);
+        padding: 0;
+        margin: 0;
+     
+     }
+  
+ 
+     #shop,#artists,#shows,#about
+     { padding: 0px;
+      font-family:  Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+     font-size: 14px;
+     transition: 0.8s;
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+     position: relative;
+     
+     }
+    
+     #concert
+     {width: 100%;}
+     #concert-img-box
+     {width: 100%;
+     background-color: black;
+     text-align: center;
+     
+     }
+
+
+
+     #clock
+     {display:flex ;
+     font-family: Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+     font-size: 20px;
+     color: white;
+     padding-right: 2%;
+     }
+     
+
+
+
+
+     #concert-heading
+{
+display: none;
+}
+
+#input-box
+{padding-top: 10%;
+padding-left: 15%;}
+  
+ #booking-box
+ {flex-direction: column;
+
+}
+ 
+     .footer1
+     {display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+     height: 70px;
+     align-items: center;
+     padding: 20px;
+     background-color: black;
+     
+     }
+     .footeri
+     {/*   flex: 1 30% */
+         min-width: 80px;
+         font-family:  Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+     text-align: center;
+     font-size: 18px;
+     color: white;
+     }
+     
+ 
+ 
+ 
+ 
+ }
+     
+ 

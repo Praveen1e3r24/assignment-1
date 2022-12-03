@@ -201,9 +201,11 @@ header{
  #travis-scott-info
  {display: block;
 position: relative;
-top:70px ;
+  top:70px ;
 }
  
+
+
  #img-2
  {
  background-color: black;
@@ -397,13 +399,11 @@ margin-top: 10px;
        }
     
     #abt-ts
-    {position: absolute;
-        top: 80px;
-       left: 5px;
+    {
+      display: none;
        color: white;
        width: 300px;
-       display: none;
-    
+  
            
        }
 

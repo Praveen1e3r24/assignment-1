@@ -1,11 +1,11 @@
-const hourEl = document.getElementById("hour");
+const hour = document.getElementById("hour");
 
 
-const minuteEl = document.getElementById("minutes");
+const minute = document.getElementById("minutes");
 
-const secondEl = document.getElementById("Second");
+const second = document.getElementById("Second");
 
-const ampmEl = document.getElementById("ampm");
+const ampm = document.getElementById("ampm");
 
 
 
@@ -20,10 +20,10 @@ function updateClock(){
         h=h-12
         ampm="PM"
     }
-    hourEl.innerText=h;
-    minuteEl.innerText=m;
-    secondEl.innerText=s;
-    ampmEl.innerText -ampm;
+    hour.innerText=h;
+    minute.innerText=m;
+    second.innerText=s;
+    ampm.innerText =ampm;
     setTimeout(()=>
     updateClock()
     ,1000)

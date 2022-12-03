@@ -203,25 +203,131 @@ header{
 
 
 
-#dt,#ts,#sw
+.ts,.dt,.sw
+{display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.ts-img-container
+{max-width:30%;}
+
+.ts-img
+{width: 100%;}
+
+.myVideo
+{
+max-width:40%;}
+
+.video
+{
+object-fit: contain;}
+
+.ts-text-container
+{   padding-left: 2%;
+    min-width: 20%;}
+
+
+
+
+
+    .dt-img-container
+    {max-width:30%;
+      
+        
+    }
+    
+    .dt-img
+    {width: 80%;
+        
+   }
+    
+    .myVideo1
+    {
+    max-width:40%;}
+    
+    .video1
+    {
+    object-fit: contain;}
+    
+    .dt-text-container
+    {   padding-left: 2%;
+        min-width: 20%;}
+    
+
+
+
+
+        .sw-img-container
+        {max-width:30%;
+          
+            
+        }
+        
+        .sw-img
+        {width: 70%;
+            
+       }
+        
+        .myVideo2
+        {
+        max-width:40%;}
+        
+        .video2
+        {
+        object-fit: contain;}
+        
+        .sw-text-container
+        {   
+            min-width: 20%;}
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #dt,#ts,#sw
 { display: flex;
   align-items: center;
   background-color: black;
 }
 .s-img
-{width: 350px;
-height: 350px;
+{width: 100%;
+height: 100%;
 padding-left: 20px;
 padding-right: 20px;
-background-color: black;}
+background-color: black;
+max-width: 50%;
+object-fit: cover;}
+
 
 #dt,#sw,#ts
 {justify-content: space-between;}
 
 
 #myVideo
-{width: 700px;
-height: 500px;}
+{
+    max-width: 30%;
+min-height: 100%;} */
 
 
 
@@ -326,25 +432,107 @@ padding-top: 10px;
  cursor: pointer;}
  
  
- @media (max-width:500px) 
+ @media (max-width:700px) 
  {
-     header{
-         
+     
+    header{
+        
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         box-shadow: 5px 5px 5px grey;
-        min-width: 100%;
-        position: static;
-        background-color: white;
+        position: relative;
+        background-color: rgb(0, 0, 0);
         padding: 0;
+        margin: 0;
      
      }
-     
-     .potraits
-     {width: 80px;
-     height: 80px;
-     transition: 0.4s;}
-     
+  
  
+     #shop,#artists,#shows,#about
+     { padding: 0px;
+      font-family:  Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+     font-size: 14px;
+     transition: 0.8s;
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+     position: relative;
+     
+     }
+ 
+   .ts,.sw
+   {flex-direction: column;}
+
+   .dt{flex-direction: column-reverse;}
+
+
+    .ts-img-container
+    {max-width:100%;}
+
+    .ts-img
+    {width: 100%;}
+
+    .myVideo
+    {
+    max-width:100%;}
+
+    .video
+    {
+    object-fit: contain;}
+
+    .ts-text-container
+    {   padding-left: 2%;
+        min-width: 20%;}
+
+     
+
+
+
+
+
+        .sw-img-container
+        {max-width:100%;}
+    
+        .sw-img
+        {width: 100%;}
+    
+        .myVideo2
+        {
+        max-width:100%;}
+    
+        .video2
+        {
+        object-fit: contain;}
+    
+        .sw-text-container
+        {   padding-left: 2%;
+            min-width: 20%;}
+    
+
+
+            .dt-img-container
+            {min-width:100%;}
+        
+            .dt-img
+            {width: 100%;}
+        
+            .myVideo1
+            {
+            max-width:100%;}
+        
+            .video1
+            {
+            object-fit: contain;}
+        
+            .dt-text-container
+            {   padding-left: 2%;
+                min-width: 20%;}
+        
+    
+                
+                #astroworld-img,#lifeofadon-img,#hoh-img,#mudboy-img
+                {height: 300px;
+                padding: 20px;}
+                
+     
      }

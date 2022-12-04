@@ -19,14 +19,15 @@ Audience : People who like rap music/hip-hop. Companies who are looking for bran
 
 
 #Features (single slash(/)=features not implemented || double slash(//)= feature implemented)
-1.)The features of this website include signing up to be a member of cactus jack  /
+1.)The features of this website include signing up to be a member of cactus jack  //
 2.)Individual page for each artisits which includes details about them //
  3.)redirecting to the artist's socials and videos //
  4.)redirecting to the artists songs //
  5.)Shop page for user to buy cactus jack products and ,merchandise /
- 6.)Concert page for users to buy concert tickets/
+ 6.)Concert page for users to buy concert tickets//
  7.)Navigation Bar //
- 8.) Clock
+ 8.) Clock//
+ 9.)slideshow
  
 
 

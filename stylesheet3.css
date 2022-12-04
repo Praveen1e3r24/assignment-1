@@ -440,10 +440,11 @@ margin-top: 10px;
     {display: flex;
      justify-content: space-between;
      flex-wrap: wrap;
-    height: 70px;
+    height: 80px;
     align-items: center;
     padding: 20px;
     background-color: black;
+    
     
     }
     .footeri

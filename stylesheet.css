@@ -401,6 +401,11 @@ cursor: pointer;}
     {width: 80px;
     height: 80px;
     transition: 0.4s;}
+
+
+    #astroworld-img,#lifeofadon-img,#hoh-img,#mudboy-img
+    {height: 300px;
+    margin: 20px;}
     
 
     }

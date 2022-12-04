@@ -1,0 +1,351 @@
+
+
+
+header{
+    
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 5px grey;
+    min-width: 100%;
+    position: static;
+    z-index: 1;
+    height: 70px;
+    position: relative;
+    
+ 
+ }
+ 
+ 
+ 
+ #shop,#artists,#shows,#about
+ {padding: 10px;
+  font-family:  Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+ font-size: 16px;
+ transition: 0.8s;
+ color: rgb(255, 255, 255);
+ text-decoration: none;
+ position: relative;
+ }
+ #l1,#l2,#l3,#l4,#l5{list-style: none;}
+ #img-1
+ {height: 70px;
+ }
+ .shop-list
+ {   list-style: none;
+     position: absolute;
+     background-color: white;
+     padding: 0;
+     height: 100px;
+     top: 38px;
+     left: 2px;
+     box-shadow: 2px 2px 2px  rgb(91, 57, 13);
+     border-radius: 3px;
+     display: none;
+     z-index: 1;
+ 
+ }
+ #sl1,#sl11,#sl12
+ {text-decoration: none;
+ list-style: none;
+ color: black;
+ font-size: 20px;
+ line-height:30px;
+ display: block;
+ }
+ 
+ #l1:hover > .shop-list
+ {  transition: 0.5;
+     display: block;}
+ 
+ 
+ .shop-list:hover{background-color: rgb(238, 226, 204);}
+ #sl1:hover
+ {background-color: black;
+ color: white;}
+ #sl11:hover
+ {background-color: black;
+ color: white;}
+ #sl12:hover
+ {background-color: black;
+ color: white;}
+ 
+ .artists-list
+ {list-style: none;
+     position: absolute;
+     background-color: white;
+     padding: 0;
+     height: 100px;
+     top: 38px;
+     box-shadow: 2px 2px 2px  rgb(91, 57, 13);
+     border-radius: 3px;
+     display: none;
+     z-index: 1;
+ }
+ #al1,#al11,#al12
+ {text-decoration: none;
+     list-style: none;
+     color: black;
+     font-size: 20px;
+     line-height:30px;
+     display: block;}
+ .artists-list:hover{background-color: rgb(238, 226, 204);}
+ #al1:hover
+ {background-color: rgb(0, 0, 0);
+ color: rgb(255, 255, 255);}
+ #al11:hover
+ {background-color: black;
+ color: white;}
+ #al12:hover
+ {background-color: black;
+ color: white;}
+ #l2:hover > .artists-list
+ { transition: 0.5s;
+     display: block;}
+ 
+ .shows-list
+ {list-style: none;
+     position: absolute;
+     background-color: white;
+     padding: 0;
+     height: 70px;
+     top: 38px;
+     box-shadow: 2px 2px 2px  rgb(91, 57, 13);
+     border-radius: 3px;
+     width: 70px;
+     display: none;
+     z-index: 1;
+    
+ }
+ 
+ #sl2,#sl
+ {text-decoration: none;
+     list-style: none;
+     color: black;
+     font-size: 20px;
+     line-height:30px;
+     display: block;}
+ 
+ 
+     .shows-list:hover{background-color: rgb(238, 226, 204);}
+     #sl2:hover
+     {background-color: black;
+     color: white;}
+     #sl:hover
+     {background-color: black;
+     color: white;}
+    #l4:hover > .shows-list
+    {transition: 0.5s;
+     display: block;}
+ 
+ /* 
+ .about-list
+ {list-style: none;
+     position: absolute;
+     background-color: white;
+     padding: 0;
+     height: 50px;
+     top: 38px;
+     box-shadow: 2px px 2px  rgb(91, 57, 13);
+     border-radius: 3px;
+     width: 80px;
+     right: 0px;
+     display: none;
+     
+ 
+ }
+ #al13
+ {text-decoration: none;
+     list-style: none;
+     color: black;
+     font-size: 18px;
+     margin-top: 10px;
+     line-height:30px;
+     display: block;;}
+ 
+ 
+     .about-list:hover{background-color: rgb(238, 226, 204);}
+     #al13:hover
+     {background-color: black;
+     color: white;}
+ 
+ 
+     
+ 
+     #l5:hover > .about-list
+     { transition: 0.5s;
+     display: block;}
+      */
+ 
+ #img-1
+ {transition: 0.8s;}
+ 
+ #shop:hover
+ {background-color: rgb(255, 255, 255);
+ color: rgb(0, 0, 0);
+ cursor: pointer;}  
+ #artists:hover
+ {background-color: rgb(255, 255, 255);
+ color: rgb(0, 0, 0);cursor: pointer;} 
+ #img-1:hover
+ {box-shadow: 3px 3px 3px  rgb(132, 111, 111);
+ color: rgb(255, 255, 255);cursor: pointer;} 
+ #shows:hover
+ {background-color: rgb(255, 255, 255);
+ color: rgb(0, 0, 0);cursor: pointer;} 
+ #about:hover
+ {background-color: rgb(255, 255, 255);
+ color: rgb(0, 0, 0);cursor: pointer;} 
+ 
+
+ #selectors-abs
+ {width: 100%;
+position: relative;}
+
+#selectors
+{display: flex;
+justify-content: space-between;
+background-color: black;
+width: 100%;
+
+}
+#ts-ad
+{  
+    width: 100%;}
+#ts-ad-img
+{width: 100%;}
+
+#f-search-bar
+{display: flex;
+padding-left: 30%;
+overflow: hidden;}
+
+#search-bar
+{width: 400px;
+height: 50px;
+border: none;
+border-radius: 5px;
+font-family: Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+}
+#search-logo
+{width: 30px;
+height: 30px;
+border-left: 1px solid  ;
+margin-top: 10px;
+padding-left: 2px;}
+
+#shopping-cart-img
+ {width: 80px;
+height: 50px;
+
+}
+
+
+
+
+#cj-pp
+{width: 60px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    
+    background-color: wheat;
+    }
+    
+
+#product-menu
+{display: flex;
+flex-wrap: wrap;
+margin-top: 30px;
+padding-bottom:20px ;}
+
+
+
+
+
+
+ 
+.pimg1,.pimg3,.pimg5,.pimg6,.pimg7
+{width: 300px;
+}
+
+.pimg2{
+    height: 300px;
+    width: 350px;
+}
+.pimg4
+{width: 370px;}
+
+
+.pimg7
+{object-fit: contain;}
+
+
+.pimg8
+{width: 390px;}
+
+
+
+.pimg1:hover
+{cursor: pointern;
+scale: 110%;}
+.pimg2:hover
+{cursor: pointern;
+scale: 110%;}
+.pimg3:hover
+{cursor: pointern;
+scale: 110%;}
+.pimg4:hover
+{cursor: pointern;
+scale: 110%;}
+.pimg5:hover
+{cursor: pointern;
+scale: 110%;}
+
+.pimg6:hover
+{cursor: pointern;
+scale: 110%;}
+.pimg7:hover
+{cursor: pointern;
+scale: 110%;}
+.pimg8:hover
+{cursor: pointern;
+scale: 110%;}
+
+
+#p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8
+{   display: flex;
+    flex: 1 45%;
+    justify-content: center;}
+
+
+
+ /* footer */
+ 
+
+
+
+ .footer1
+ {display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ height: 50px;
+ align-items: center;
+ padding: 20px;
+ background-color: black;
+ 
+ }
+ .footeri
+ {/*   flex: 1 30% */
+     min-width: 80px;
+     font-family:  Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+ text-align: center;
+ font-size: 18px;
+ color: white;
+ }
+ 
+ .footeri:hover
+ {background-color: rgb(255, 255, 255);
+ color: rgb(0, 0, 0);
+ cursor: pointer;}

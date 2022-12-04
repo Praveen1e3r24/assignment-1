@@ -51,7 +51,7 @@ var seats =  document.getElementById(f3).value;
 // var tickets = document,getElementById(f4).value;
 let content =`You have succesfully booked a ticket to ${artist}'s concert on  ${date}. Your seat number is ${seats}.`;
 alert(content)
-document.getElementById("submit-button-attr").href="index.html";
+document.getElementById("submit-button-attr").href="HTML/index.html";
 // document.getElementById("hello").style.backgroundColor="beige";
 // document.getElementById("hello").style.color="black";
 // document.getElementById("hello").innerHTML=content

@@ -1,0 +1,406 @@
+
+
+
+header{
+    
+   display: flex;
+   padding-left: 5px;
+   padding-right: 5px;
+   justify-content: space-between;
+   align-items: center;
+   box-shadow: 5px 5px 5px grey;
+   min-width: 100%;
+   position: fixed;
+   background-color: white;
+
+}
+
+
+
+#shop,#artists,#shows,#about
+{padding: 10px;
+ font-family:  Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+font-size: 16px;
+transition: 0.8s;
+color: black;
+text-decoration: none;
+position: relative;
+}
+#l1,#l2,#l3,#l4,#l5{list-style: none;}
+#img-1
+{width: 80px;
+ 
+}
+.shop-list
+{   list-style: none;
+    position: absolute;
+    background-color: white;
+    padding: 0;
+    height: 100px;
+    top: 38px;
+    left: 2px;
+    box-shadow: 2px 2px 2px  rgb(91, 57, 13);
+    border-radius: 3px;
+    display: none;
+
+}
+#sl1,#sl11,#sl12
+{text-decoration: none;
+list-style: none;
+color: black;
+font-size: 20px;
+line-height:30px;
+display: block;
+}
+
+#l1:hover > .shop-list
+{  transition: 0.5;
+    display: block;}
+
+
+.shop-list:hover{background-color: rgb(238, 226, 204);}
+#sl1:hover
+{background-color: black;
+color: white;}
+#sl11:hover
+{background-color: black;
+color: white;}
+#sl12:hover
+{background-color: black;
+color: white;}
+
+.artists-list
+{list-style: none;
+    position: absolute;
+    background-color: white;
+    padding: 0;
+    height: 100px;
+    top: 38px;
+    box-shadow: 2px 2px 2px  rgb(91, 57, 13);
+    border-radius: 3px;
+    display: none;
+}
+#al1,#al11,#al12
+{text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 20px;
+    line-height:30px;
+    display: block;}
+.artists-list:hover{background-color: rgb(238, 226, 204);}
+#al1:hover
+{background-color: black;
+color: white;}
+#al11:hover
+{background-color: black;
+color: white;}
+#al12:hover
+{background-color: black;
+color: white;}
+#l2:hover > .artists-list
+{ transition: 0.5s;
+    display: block;}
+
+.shows-list
+{list-style: none;
+    position: absolute;
+    background-color: white;
+    padding: 0;
+    height: 70px;
+    top: 38px;
+    box-shadow: 2px 2px 2px  rgb(91, 57, 13);
+    border-radius: 3px;
+    width: 70px;
+    display: none
+}
+
+#sl2,#sl
+{text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 20px;
+    line-height:30px;
+    display: block;}
+
+
+    .shows-list:hover{background-color: rgb(238, 226, 204);}
+    #sl2:hover
+    {background-color: black;
+    color: white;}
+    #sl:hover
+    {background-color: black;
+    color: white;}
+   #l4:hover > .shows-list
+   {transition: 0.5s;
+    display: block;}
+
+/* 
+.about-list
+{list-style: none;
+    position: absolute;
+    background-color: white;
+    padding: 0;
+    height: 50px;
+    top: 38px;
+    box-shadow: 2px px 2px  rgb(91, 57, 13);
+    border-radius: 3px;
+    width: 80px;
+    right: 0px;
+    display: none;
+    
+
+}
+#al13
+{text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height:30px;
+    display: block;;}
+
+
+    .about-list:hover{background-color: rgb(238, 226, 204);}
+    #al13:hover
+    {background-color: black;
+    color: white;}
+
+
+    
+
+    #l5:hover > .about-list
+    { transition: 0.5s;
+    display: block;}
+     */
+
+#img-1
+{transition: 0.8s;}
+
+#shop:hover
+{background-color: black;
+color: white;
+cursor: pointer;}  
+#artists:hover
+{background-color: black;
+color: white;cursor: pointer;} 
+#img-1:hover
+{background-color: beige;
+color: white;cursor: pointer;} 
+#shows:hover
+{background-color: black;
+color: white;cursor: pointer;} 
+#about:hover
+{background-color: black;
+color: white;cursor: pointer;} 
+
+
+
+
+
+
+#myVideo
+{width: 100%;
+}
+
+
+
+#jbimg-div
+{
+    background-color: rgb(0, 0, 0);
+}
+#jb-img
+{   margin-top:70px ;
+    width: 100%;
+}
+
+#abt-us-section
+{text-align: center;
+background-color: black;
+color: white;
+font-family:  Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+
+}
+#abt-us-heading
+{margin: 0;
+font-size: 30px;
+}
+#abt-us
+{margin: 0;
+padding: 10px;
+}
+
+.potraits:hover
+{cursor: pointer;
+box-shadow: 2px 2px 2px rgb(168, 161, 161);
+scale: 1.1;}
+
+
+#gatti-video-section
+{background-color: black;}
+.names:hover
+{cursor: pointer;
+text-decoration: underline;
+}
+
+.names:active
+{color: rgb(155, 33, 33);}
+
+
+/* about jb */
+
+
+#jb-video
+{ display: flex;
+    width: 100%;
+    justify-content: center;
+ 
+}
+
+#jb
+{display: flex;
+    
+}
+
+#members
+{list-style: none;
+min-width: 200px}
+#about-jb
+{font-family:  Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+
+margin: 0;
+font-size: 16px;
+}
+
+#artist-header
+{background-color: black;
+color: white;
+font-family:  Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+line-height: 30px;
+padding: 10px;
+text-align: center;
+}
+
+#artist
+{display: flex;
+justify-content: space-around;
+background-color: black;
+color: white;
+font-family:  Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;}
+
+
+#pt-content
+{text-align: center;}
+
+.potraits
+{width: 180px;
+height: 180px;
+transition: 0.4s;}
+
+
+
+
+
+#albums-title
+{  display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+color: wheat;
+font-size: 20px;}
+
+
+
+
+
+
+#albums
+{display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+margin-top: 10px;
+}
+
+.album-img
+{}
+
+#astroworld-img,#lifeofadon-img,#hoh-img,#mudboy-img
+{height: 300px;}
+
+#astroworld-img:hover
+{   transition: 0.5s;
+    width: 102%;
+    box-shadow: 5px 5px 5px rgb(90, 136, 222);}
+#lifeofadon-img:hover
+{   transition: 0.5s;
+    width: 102%;
+    box-shadow: 5px 5px 5px rgb(212, 18, 18);}
+
+#hoh-img:hover
+{
+    transition: 0.5s;
+    width: 102%;
+    box-shadow: 5px 5px 5px wheat;}
+
+
+    #mudboy-img:hover
+{
+    transition: 0.5s;
+    width: 102%;
+    box-shadow: 5px 5px 5px rgb(236, 236, 236);}
+
+    
+
+
+
+
+
+
+
+/* footer */
+
+.footer1
+{display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+height: 50px;
+align-items: center;
+padding: 20px;
+
+}
+.footeri
+{/*   flex: 1 30% */
+    min-width: 80px;
+    font-family:  Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+text-align: center;
+font-size: 18px;
+}
+
+.footeri:hover
+{background-color: black;
+color: white;
+cursor: pointer;}
+
+
+
+@media (max-width:500px) 
+{
+    header{
+        
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       box-shadow: 5px 5px 5px grey;
+       min-width: 100%;
+       position: fixed;
+       background-color: white;
+       padding: 0;
+    
+    }
+    
+    .potraits
+    {width: 80px;
+    height: 80px;
+    transition: 0.4s;}
+    
+
+    }
